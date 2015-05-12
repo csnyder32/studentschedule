@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1468F3E1AFBE649001534B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1468F3D1AFBE649001534B3 /* AppDelegate.swift */; };
+		B1468F401AFBE649001534B3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1468F3F1AFBE649001534B3 /* FirstViewController.swift */; };
+		B1468F421AFBE649001534B3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1468F411AFBE649001534B3 /* SecondViewController.swift */; };
+		B1468F451AFBE649001534B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1468F431AFBE649001534B3 /* Main.storyboard */; };
+		B1468F471AFBE649001534B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1468F461AFBE649001534B3 /* Images.xcassets */; };
+		B1468F4A1AFBE649001534B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1468F481AFBE649001534B3 /* LaunchScreen.xib */; };
+		B1468F561AFBE649001534B3 /* MyStudentScheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1468F551AFBE649001534B3 /* MyStudentScheduleTests.swift */; };
+		B1468F601AFBE66B001534B3 /* ScheduleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1468F5F1AFBE66B001534B3 /* ScheduleManager.swift */; };
+		B1FCCDBB1AFC319A00153FB7 /* assignmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FCCDBA1AFC319A00153FB7 /* assignmentViewController.swift */; };
+		B1FCCDBD1AFC325700153FB7 /* AssignmentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FCCDBC1AFC325700153FB7 /* AssignmentManager.swift */; };
+		B1FCCDBF1AFC337800153FB7 /* assignmentCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FCCDBE1AFC337800153FB7 /* assignmentCellTableViewCell.swift */; };
+		B1FCCDC11AFC34DB00153FB7 /* addAssignmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FCCDC01AFC34DB00153FB7 /* addAssignmentViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1468F501AFBE649001534B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1468F301AFBE649001534B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1468F371AFBE649001534B3;
+			remoteInfo = MyStudentSchedule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1468F381AFBE649001534B3 /* MyStudentSchedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyStudentSchedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1468F3C1AFBE649001534B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1468F3D1AFBE649001534B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B1468F3F1AFBE649001534B3 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		B1468F411AFBE649001534B3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B1468F441AFBE649001534B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1468F461AFBE649001534B3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B1468F491AFBE649001534B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B1468F4F1AFBE649001534B3 /* MyStudentScheduleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyStudentScheduleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1468F541AFBE649001534B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1468F551AFBE649001534B3 /* MyStudentScheduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStudentScheduleTests.swift; sourceTree = "<group>"; };
+		B1468F5F1AFBE66B001534B3 /* ScheduleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleManager.swift; sourceTree = "<group>"; };
+		B1FCCDBA1AFC319A00153FB7 /* assignmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = assignmentViewController.swift; sourceTree = "<group>"; };
+		B1FCCDBC1AFC325700153FB7 /* AssignmentManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignmentManager.swift; sourceTree = "<group>"; };
+		B1FCCDBE1AFC337800153FB7 /* assignmentCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = assignmentCellTableViewCell.swift; sourceTree = "<group>"; };
+		B1FCCDC01AFC34DB00153FB7 /* addAssignmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addAssignmentViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1468F351AFBE649001534B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1468F4C1AFBE649001534B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1468F2F1AFBE649001534B3 = {
+			isa = PBXGroup;
+			children = (
+				B1468F3A1AFBE649001534B3 /* MyStudentSchedule */,
+				B1468F521AFBE649001534B3 /* MyStudentScheduleTests */,
+				B1468F391AFBE649001534B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1468F391AFBE649001534B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1468F381AFBE649001534B3 /* MyStudentSchedule.app */,
+				B1468F4F1AFBE649001534B3 /* MyStudentScheduleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1468F3A1AFBE649001534B3 /* MyStudentSchedule */ = {
+			isa = PBXGroup;
+			children = (
+				B1468F3D1AFBE649001534B3 /* AppDelegate.swift */,
+				B1468F3F1AFBE649001534B3 /* FirstViewController.swift */,
+				B1468F411AFBE649001534B3 /* SecondViewController.swift */,
+				B1468F431AFBE649001534B3 /* Main.storyboard */,
+				B1FCCDC01AFC34DB00153FB7 /* addAssignmentViewController.swift */,
+				B1FCCDBE1AFC337800153FB7 /* assignmentCellTableViewCell.swift */,
+				B1FCCDBA1AFC319A00153FB7 /* assignmentViewController.swift */,
+				B1FCCDBC1AFC325700153FB7 /* AssignmentManager.swift */,
+				B1468F5F1AFBE66B001534B3 /* ScheduleManager.swift */,
+				B1468F461AFBE649001534B3 /* Images.xcassets */,
+				B1468F481AFBE649001534B3 /* LaunchScreen.xib */,
+				B1468F3B1AFBE649001534B3 /* Supporting Files */,
+			);
+			path = MyStudentSchedule;
+			sourceTree = "<group>";
+		};
+		B1468F3B1AFBE649001534B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1468F3C1AFBE649001534B3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1468F521AFBE649001534B3 /* MyStudentScheduleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1468F551AFBE649001534B3 /* MyStudentScheduleTests.swift */,
+				B1468F531AFBE649001534B3 /* Supporting Files */,
+			);
+			path = MyStudentScheduleTests;
+			sourceTree = "<group>";
+		};
+		B1468F531AFBE649001534B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1468F541AFBE649001534B3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1468F371AFBE649001534B3 /* MyStudentSchedule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1468F591AFBE649001534B3 /* Build configuration list for PBXNativeTarget "MyStudentSchedule" */;
+			buildPhases = (
+				B1468F341AFBE649001534B3 /* Sources */,
+				B1468F351AFBE649001534B3 /* Frameworks */,
+				B1468F361AFBE649001534B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyStudentSchedule;
+			productName = MyStudentSchedule;
+			productReference = B1468F381AFBE649001534B3 /* MyStudentSchedule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1468F4E1AFBE649001534B3 /* MyStudentScheduleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1468F5C1AFBE649001534B3 /* Build configuration list for PBXNativeTarget "MyStudentScheduleTests" */;
+			buildPhases = (
+				B1468F4B1AFBE649001534B3 /* Sources */,
+				B1468F4C1AFBE649001534B3 /* Frameworks */,
+				B1468F4D1AFBE649001534B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1468F511AFBE649001534B3 /* PBXTargetDependency */,
+			);
+			name = MyStudentScheduleTests;
+			productName = MyStudentScheduleTests;
+			productReference = B1468F4F1AFBE649001534B3 /* MyStudentScheduleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1468F301AFBE649001534B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = LAKES;
+				TargetAttributes = {
+					B1468F371AFBE649001534B3 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					B1468F4E1AFBE649001534B3 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = B1468F371AFBE649001534B3;
+					};
+				};
+			};
+			buildConfigurationList = B1468F331AFBE649001534B3 /* Build configuration list for PBXProject "MyStudentSchedule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1468F2F1AFBE649001534B3;
+			productRefGroup = B1468F391AFBE649001534B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1468F371AFBE649001534B3 /* MyStudentSchedule */,
+				B1468F4E1AFBE649001534B3 /* MyStudentScheduleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1468F361AFBE649001534B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1468F451AFBE649001534B3 /* Main.storyboard in Resources */,
+				B1468F4A1AFBE649001534B3 /* LaunchScreen.xib in Resources */,
+				B1468F471AFBE649001534B3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1468F4D1AFBE649001534B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1468F341AFBE649001534B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1468F601AFBE66B001534B3 /* ScheduleManager.swift in Sources */,
+				B1468F421AFBE649001534B3 /* SecondViewController.swift in Sources */,
+				B1FCCDBF1AFC337800153FB7 /* assignmentCellTableViewCell.swift in Sources */,
+				B1FCCDBD1AFC325700153FB7 /* AssignmentManager.swift in Sources */,
+				B1FCCDBB1AFC319A00153FB7 /* assignmentViewController.swift in Sources */,
+				B1468F3E1AFBE649001534B3 /* AppDelegate.swift in Sources */,
+				B1468F401AFBE649001534B3 /* FirstViewController.swift in Sources */,
+				B1FCCDC11AFC34DB00153FB7 /* addAssignmentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1468F4B1AFBE649001534B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1468F561AFBE649001534B3 /* MyStudentScheduleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1468F511AFBE649001534B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1468F371AFBE649001534B3 /* MyStudentSchedule */;
+			targetProxy = B1468F501AFBE649001534B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1468F431AFBE649001534B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1468F441AFBE649001534B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1468F481AFBE649001534B3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1468F491AFBE649001534B3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1468F571AFBE649001534B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1468F581AFBE649001534B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1468F5A1AFBE649001534B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyStudentSchedule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B1468F5B1AFBE649001534B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyStudentSchedule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B1468F5D1AFBE649001534B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyStudentScheduleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyStudentSchedule.app/MyStudentSchedule";
+			};
+			name = Debug;
+		};
+		B1468F5E1AFBE649001534B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyStudentScheduleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyStudentSchedule.app/MyStudentSchedule";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1468F331AFBE649001534B3 /* Build configuration list for PBXProject "MyStudentSchedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1468F571AFBE649001534B3 /* Debug */,
+				B1468F581AFBE649001534B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1468F591AFBE649001534B3 /* Build configuration list for PBXNativeTarget "MyStudentSchedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1468F5A1AFBE649001534B3 /* Debug */,
+				B1468F5B1AFBE649001534B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1468F5C1AFBE649001534B3 /* Build configuration list for PBXNativeTarget "MyStudentScheduleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1468F5D1AFBE649001534B3 /* Debug */,
+				B1468F5E1AFBE649001534B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1468F301AFBE649001534B3 /* Project object */;
+}
